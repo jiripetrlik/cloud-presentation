@@ -1,0 +1,23 @@
+<kie-server-state>
+  <controllers/>
+  <configuration>
+    <configItems>
+      <config-item>
+        <name>org.kie.server.id</name>
+        <value>kie-server-id</value>
+        <type>java.lang.String</type>
+      </config-item>
+    </configItems>
+  </configuration>
+  <containers>
+    <container>
+      <containerId>test-container</containerId>
+      <releaseId>
+        <groupId>org.example</groupId>
+        <artifactId>docker-kjar</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </releaseId>
+      <status>STARTED</status>
+    </container>
+  </containers>
+</kie-server-state>
